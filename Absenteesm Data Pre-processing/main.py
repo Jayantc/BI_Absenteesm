@@ -16,7 +16,7 @@ print(df['Reason for Absence'].max())
 print(df['Reason for Absence'].min())
 print(df['Reason for Absence'].unique())
 print(len(df['Reason for Absence'].unique()))
-reason_columns= pd.get_dummies(df['Reason for Absence'], drop_first=True) #we drop first just to reduce multicolumns....we have to reduce more
+reason_columns= pd.get_dummies(df['Reason for Absence'], drop_first=True)
 print(reason_columns)
 
 
