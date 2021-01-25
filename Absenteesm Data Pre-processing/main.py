@@ -7,7 +7,7 @@ print(df)
 print(df.info())
 
 
-df= df.drop(['ID'], axis=1) #axis=1 is operation for horizontal line....axis=0 is for vertical.
+df= df.drop(['ID'], axis=1)
 print(df)
 
 
